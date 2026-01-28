@@ -55,7 +55,7 @@ flowchart TD
 
     R --> FM[Framer Motion Animations]
     R --> UI[Glassmorphism UI]
-
+```
     CI[GitHub Actions] -->|build| GH[GitHub Pages]
 📁 Структура проекта
 mylandingreact/
