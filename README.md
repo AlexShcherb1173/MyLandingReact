@@ -57,76 +57,76 @@ flowchart TD
     R --> UI[Glassmorphism UI]
 ```
     CI[GitHub Actions] -->|build| GH[GitHub Pages]
-📁 Структура проекта
-mylandingreact/
-├── public/
-├── src/
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   └── Project.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── App.css
-├── .github/workflows/
-│   └── deploy.yml
-├── vite.config.js
-├── package.json
-└── README.md
+📁 Структура проекта  
+mylandingreact/  
+├── public/  
+├── src/  
+│   ├── pages/  
+│   │   ├── Home.jsx  
+│   │   └── Project.jsx   
+│   ├── App.jsx  
+│   ├── main.jsx  
+│   └── App.css  
+├── .github/workflows/  
+│   └── deploy.yml  
+├── vite.config.js  
+├── package.json  
+└── README.md    
 ⭐ Представленные проекты
-Landing агрегирует реальные showcase-репозитории:
+Landing агрегирует реальные showcase-репозитории:  
 
-OnlineStore — e-commerce backend (Django, DRF, PostgreSQL)
+OnlineStore — e-commerce backend (Django, DRF, PostgreSQL)  
 
-OnlineLearning — платформа онлайн-обучения
+OnlineLearning — платформа онлайн-обучения  
 
-Message_AutoSend — email-рассылки и планирование
+Message_AutoSend — email-рассылки и планирование  
 
-AtomicHabits API — трекер привычек + фоновые задачи
+AtomicHabits API — трекер привычек + фоновые задачи  
 
-MyBank / ProjectBank — финтех и аналитика
+MyBank / ProjectBank — финтех и аналитика  
 
-HH_Data / HH_Vacancies — анализ рынка вакансий
+HH_Data / HH_Vacancies — анализ рынка вакансий  
 
-Каждый проект:
+Каждый проект:  
 
-имеет отдельную страницу
+имеет отдельную страницу  
 
-содержит краткое описание
+содержит краткое описание  
 
-кнопку Open repo
+кнопку Open repo  
 
-🚀 Локальный запуск
-npm install
-npm run dev
-Открыть:
-👉 http://localhost:5173/
+🚀 Локальный запуск  
+npm install  
+npm run dev  
+Открыть:  
+👉 http://localhost:5173/  
 
-🚀 Деплой (GitHub Pages)
-Проект автоматически деплоится через GitHub Actions:
+🚀 Деплой (GitHub Pages)  
+Проект автоматически деплоится через GitHub Actions:  
 
-push → main
-  ↓
-npm run build
-  ↓
-deploy-pages
-  ↓
-GitHub Pages
-Настройки:
+push → main  
+  ↓  
+npm run build  
+  ↓  
+deploy-pages  
+  ↓  
+GitHub Pages  
+Настройки:  
 
-base: "/MyLandingReact/" в vite.config.js
+base: "/MyLandingReact/" в vite.config.js  
 
-BrowserRouter basename={import.meta.env.BASE_URL}
+BrowserRouter basename={import.meta.env.BASE_URL}  
 
 📌 Назначение проекта
-Этот репозиторий создан как:
+Этот репозиторий создан как:  
 
-🎯 персональный landing
+🎯 персональный landing  
+ 
+🧰 витрина GitHub-проектов  
 
-🧰 витрина GitHub-проектов
+💼 portfolio для рекрутеров  
 
-💼 portfolio для рекрутеров
-
-🧪 playground для UI / анимаций / архитектуры
+🧪 playground для UI / анимаций / архитектуры  
 
 📫 Контакты
 GitHub: https://github.com/ScherbAlex
